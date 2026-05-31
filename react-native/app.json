@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Shopr",
+    "slug": "shopr",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "shopr",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFFFFF",
+    "primaryColor": "#0EA5E9",
+    "platforms": ["ios", "android", "web"],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "backgroundColor": "#FFFFFF"
+    },
+    "android": {
+      "package": "com.redsitesoftware.shopr"
+    },
+    "ios": {
+      "bundleIdentifier": "com.redsitesoftware.shopr"
+    }
+  }
+}
